@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main {
+  background: #f6f7f9;
+  border-radius: 7px;
+  width: 557px;
+  height: 375px;
+  margin: 16px 38px 20px 18px;
+ position: relative;
+  border-width: 7px;
+  border-style: solid;
+  border-color: #988270;
+  display: flex;
+ 
+}
+
+.person {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.person__description {
+  width: 342px;
+  height: 126px;
+  font-size: 29px;
+  line-height: 38px;
+  margin-top: 120px;
+  text-align: center;
+  color: #613d22;
+  position: relative;
+margin-right: 38px;
+  overflow: hidden;
+  display: flex;
+ flex-wrap: nowrap;
+  max-height: 126px;
+  justify-content: center;
+  align-items: stretch;
+  z-index: 2;
+  
+}
+
+.person__picture {
+  position: relative;
+  z-index: 3;
+  margin-left: 18px;
+  padding: 0px 270px 13px 11px;
+  width: 262px;
+  height: 348px;
+}
+
+.person__info {
+}
+
+.person__name {
+  font-size: 26px;
+  font-weight: lighter;
+  color: #a6866d;
+  margin-bottom: 62px;
+ 
+  z-index: 1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+  
+  overflow: hidden;
+  display: flex;
+ flex-wrap: nowrap;
+  max-height: 126px;
+  justify-content: center;
+  align-items: stretch;
+}
