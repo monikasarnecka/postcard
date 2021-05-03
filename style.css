@@ -21,38 +21,37 @@ body {
   width: 557px;
   height: 375px;
   margin: 16px 38px 20px 18px;
- position: relative;
+  position: relative;
   border-width: 7px;
   border-style: solid;
   border-color: #988270;
   display: flex;
- 
 }
 
 .person {
   display: flex;
   align-items: flex-start;
-  
 }
 
 .person__description {
   width: 342px;
   height: 126px;
-  font-size: 29px;
+  font-size: 32px;
   line-height: 38px;
-  margin-top: 120px;
   text-align: center;
   color: #613d22;
-  position: relative;
-margin-right: 38px;
+  position: absolute;
+  margin-right: 38px;
   overflow: hidden;
   display: flex;
- flex-wrap: nowrap;
+  flex-wrap: nowrap;
   max-height: 126px;
   justify-content: center;
   align-items: stretch;
   z-index: 2;
-  
+  top: 77px;
+  left: 173px;
+  text-shadow: #808080b3 0.1em 0.1em 0.2em;
 }
 
 .person__picture {
@@ -72,16 +71,16 @@ margin-right: 38px;
   font-weight: lighter;
   color: #a6866d;
   margin-bottom: 62px;
- 
   z-index: 1;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    position: relative;
-  
+  position: absolute;
   overflow: hidden;
   display: flex;
- flex-wrap: nowrap;
+  flex-wrap: nowrap;
   max-height: 126px;
   justify-content: center;
   align-items: stretch;
+  top:13px;
+  left:173px;
 }
